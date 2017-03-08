@@ -1,0 +1,23 @@
+PODS:
+  - APIKit (3.1.1):
+    - Result (~> 3.0)
+  - Himotoki (3.0.0)
+  - Result (3.1.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - APIKit
+  - Himotoki
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
+  Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+
+PODFILE CHECKSUM: f0dff9cfe5556b122ae1f7f67c132b6dab8a0cf5
+
+COCOAPODS: 1.1.1

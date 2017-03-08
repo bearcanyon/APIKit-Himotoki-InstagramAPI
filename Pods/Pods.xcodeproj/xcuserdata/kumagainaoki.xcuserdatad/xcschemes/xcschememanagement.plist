@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>APIKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Himotoki.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-APIKit+Himotoki+InstagramAPI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>335B12EDA6B9CC6986307EE000FBA4C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34478F41F5D1144256B25A4D6E85EBB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CAF2DFADEB8F0738869A90E9E89E526</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>523A28CC1E3989574451BB0ED46D7371</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85E2165CD72B974A40D58F4D47308101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

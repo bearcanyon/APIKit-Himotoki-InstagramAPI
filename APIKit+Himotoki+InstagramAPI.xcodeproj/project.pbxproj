@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CCA7CE87FB0BFD386F7BDA6 /* Pods_APIKit_Himotoki_InstagramAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC06EC58B231601134A9258 /* Pods_APIKit_Himotoki_InstagramAPI.framework */; };
 		5FBE622A1E6808FC0022D702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE62291E6808FC0022D702 /* AppDelegate.swift */; };
 		5FBE622C1E6808FC0022D702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE622B1E6808FC0022D702 /* ViewController.swift */; };
 		5FBE622F1E6808FD0022D702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE622D1E6808FD0022D702 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		5FBE62341E6808FD0022D702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE62321E6808FD0022D702 /* LaunchScreen.storyboard */; };
 		5FBE623F1E6808FD0022D702 /* APIKit_Himotoki_InstagramAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE623E1E6808FD0022D702 /* APIKit_Himotoki_InstagramAPITests.swift */; };
 		5FBE624A1E6808FD0022D702 /* APIKit_Himotoki_InstagramAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE62491E6808FD0022D702 /* APIKit_Himotoki_InstagramAPIUITests.swift */; };
+		5FBE625F1E68336E0022D702 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE625E1E68336E0022D702 /* InstagramAPI.swift */; };
+		5FBE62611E691BED0022D702 /* InstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE62601E691BED0022D702 /* InstagramData.swift */; };
+		5FBE62A11E6CFA160022D702 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE62A01E6CFA160022D702 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		229A379BCAA8CEFC95D506E8 /* Pods-APIKit+Himotoki+InstagramAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKit+Himotoki+InstagramAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIKit+Himotoki+InstagramAPI/Pods-APIKit+Himotoki+InstagramAPI.release.xcconfig"; sourceTree = "<group>"; };
 		5FBE62261E6808FC0022D702 /* APIKit+Himotoki+InstagramAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APIKit+Himotoki+InstagramAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBE62291E6808FC0022D702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FBE622B1E6808FC0022D702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,12 @@
 		5FBE62451E6808FD0022D702 /* APIKit+Himotoki+InstagramAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APIKit+Himotoki+InstagramAPIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FBE62491E6808FD0022D702 /* APIKit_Himotoki_InstagramAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKit_Himotoki_InstagramAPIUITests.swift; sourceTree = "<group>"; };
 		5FBE624B1E6808FD0022D702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBE62571E680A330022D702 /* APIKit+Himotoki+InstagramAPI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIKit+Himotoki+InstagramAPI-Bridging-Header.h"; sourceTree = "<group>"; };
+		5FBE625E1E68336E0022D702 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
+		5FBE62601E691BED0022D702 /* InstagramData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramData.swift; sourceTree = "<group>"; };
+		5FBE62A01E6CFA160022D702 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AFC06EC58B231601134A9258 /* Pods_APIKit_Himotoki_InstagramAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIKit_Himotoki_InstagramAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7010D537EAAA219685731DF /* Pods-APIKit+Himotoki+InstagramAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKit+Himotoki+InstagramAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIKit+Himotoki+InstagramAPI/Pods-APIKit+Himotoki+InstagramAPI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCA7CE87FB0BFD386F7BDA6 /* Pods_APIKit_Himotoki_InstagramAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E63CCA03287067CD42D47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06EC58B231601134A9258 /* Pods_APIKit_Himotoki_InstagramAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FBE621D1E6808FC0022D702 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				5FBE623D1E6808FD0022D702 /* APIKit+Himotoki+InstagramAPITests */,
 				5FBE62481E6808FD0022D702 /* APIKit+Himotoki+InstagramAPIUITests */,
 				5FBE62271E6808FC0022D702 /* Products */,
+				DC5458103FB641BDD1C3E65F /* Pods */,
+				32E63CCA03287067CD42D47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +121,10 @@
 			children = (
 				5FBE62291E6808FC0022D702 /* AppDelegate.swift */,
 				5FBE622B1E6808FC0022D702 /* ViewController.swift */,
+				5FBE62A01E6CFA160022D702 /* Image.swift */,
+				5FBE62601E691BED0022D702 /* InstagramData.swift */,
+				5FBE625E1E68336E0022D702 /* InstagramAPI.swift */,
+				5FBE62571E680A330022D702 /* APIKit+Himotoki+InstagramAPI-Bridging-Header.h */,
 				5FBE622D1E6808FD0022D702 /* Main.storyboard */,
 				5FBE62301E6808FD0022D702 /* Assets.xcassets */,
 				5FBE62321E6808FD0022D702 /* LaunchScreen.storyboard */,
@@ -125,6 +151,15 @@
 			path = "APIKit+Himotoki+InstagramAPIUITests";
 			sourceTree = "<group>";
 		};
+		DC5458103FB641BDD1C3E65F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7010D537EAAA219685731DF /* Pods-APIKit+Himotoki+InstagramAPI.debug.xcconfig */,
+				229A379BCAA8CEFC95D506E8 /* Pods-APIKit+Himotoki+InstagramAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FBE624E1E6808FD0022D702 /* Build configuration list for PBXNativeTarget "APIKit+Himotoki+InstagramAPI" */;
 			buildPhases = (
+				707C8872BFE9456398DB0F85 /* [CP] Check Pods Manifest.lock */,
 				5FBE62221E6808FC0022D702 /* Sources */,
 				5FBE62231E6808FC0022D702 /* Frameworks */,
 				5FBE62241E6808FC0022D702 /* Resources */,
+				E506B9CEE0F462BC10B32FAE /* [CP] Embed Pods Frameworks */,
+				0E1ADD2706E357B1098959C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +295,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E1ADD2706E357B1098959C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIKit+Himotoki+InstagramAPI/Pods-APIKit+Himotoki+InstagramAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707C8872BFE9456398DB0F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E506B9CEE0F462BC10B32FAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIKit+Himotoki+InstagramAPI/Pods-APIKit+Himotoki+InstagramAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FBE62221E6808FC0022D702 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBE625F1E68336E0022D702 /* InstagramAPI.swift in Sources */,
 				5FBE622C1E6808FC0022D702 /* ViewController.swift in Sources */,
 				5FBE622A1E6808FC0022D702 /* AppDelegate.swift in Sources */,
+				5FBE62611E691BED0022D702 /* InstagramData.swift in Sources */,
+				5FBE62A11E6CFA160022D702 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +500,7 @@
 		};
 		5FBE624F1E6808FD0022D702 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7010D537EAAA219685731DF /* Pods-APIKit+Himotoki+InstagramAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3TX4R6N43;
@@ -418,12 +508,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "naoki.kumagai.APIKit-Himotoki-InstagramAPI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APIKit+Himotoki+InstagramAPI/APIKit+Himotoki+InstagramAPI-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5FBE62501E6808FD0022D702 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229A379BCAA8CEFC95D506E8 /* Pods-APIKit+Himotoki+InstagramAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3TX4R6N43;
@@ -431,6 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "naoki.kumagai.APIKit-Himotoki-InstagramAPI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APIKit+Himotoki+InstagramAPI/APIKit+Himotoki+InstagramAPI-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -512,6 +605,7 @@
 				5FBE62501E6808FD0022D702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FBE62511E6808FD0022D702 /* Build configuration list for PBXNativeTarget "APIKit+Himotoki+InstagramAPITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +614,7 @@
 				5FBE62531E6808FD0022D702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FBE62541E6808FD0022D702 /* Build configuration list for PBXNativeTarget "APIKit+Himotoki+InstagramAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +623,7 @@
 				5FBE62561E6808FD0022D702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

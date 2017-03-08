@@ -1,0 +1,6 @@
+framework module Pods_APIKit_Himotoki_InstagramAPI {
+  umbrella header "Pods-APIKit+Himotoki+InstagramAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
