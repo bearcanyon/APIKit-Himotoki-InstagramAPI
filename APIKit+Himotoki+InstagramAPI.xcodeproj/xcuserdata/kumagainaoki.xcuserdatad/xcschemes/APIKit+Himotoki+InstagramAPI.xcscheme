@@ -81,6 +81,18 @@
             ReferencedContainer = "container:APIKit+Himotoki+InstagramAPI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "CLIENTURL"
+            value = "https://api.instagram.com/oauth/authorize/?client_id=0c301ed49ab945bcb9bc0011f1c1cd3a&amp;redirect_uri=https://www.facebook.com/naokikumagai0405&amp;response_type=token"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "ACCESSTOKENURL"
+            value = "https://www.facebook.com/naokikumagai0405#access_token="
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
